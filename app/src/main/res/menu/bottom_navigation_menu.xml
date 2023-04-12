@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/home_menu"
+        android:enabled="true"
+        android:visible="true"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/category_menu"
+        android:icon="@drawable/category_menu"
+        android:enabled="true"
+        android:visible="true"
+        android:title="Kategoriler" />
+    <item
+        android:icon="@drawable/shopping_menu"
+        android:enabled="true"
+        android:id="@+id/shopping_menu"
+        android:title="Sepetim" />
+    <item
+        android:id="@+id/list_product_menu"
+        android:icon="@drawable/baseline_favorite_border_24"
+        android:enabled="true"
+        android:title="Listelerim" />
+    <item
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/person_menu"
+        android:enabled="true"
+        android:title="Hesabım" />
+</menu>
